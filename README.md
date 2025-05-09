@@ -1,0 +1,1 @@
+This is an archive of all iterations of my retro racer game, intended to be a digital copy of the entire production of this game, and how i evolved as a programmer. It is also a good practise to be using github and having an efficient workflow.
