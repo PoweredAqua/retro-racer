@@ -1,0 +1,22 @@
+# Godot-specific folders
+.import/
+.godot/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# User-specific editor settings
+export_presets.cfg
+editor_settings-*.tpl
+
+# Swap and temporary files
+*.tmp
+*.bak
+*.swp
+
+# Compiled scripts (if any)
+*.compiled
+
+# Logs (optional)
+logs/

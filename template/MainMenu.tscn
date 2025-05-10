@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bka7sxtlvvo2p"]
+[gd_scene load_steps=2 format=3 uid="uid://cdsyjyl7igpap"]
+
+[ext_resource type="Script" uid="uid://bb60yrmj5f18r" path="res://scripts/main_menu.gd" id="1_i26rj"]
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -7,28 +9,23 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_i26rj")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 15
+anchors_preset = 14
+anchor_top = 0.5
 anchor_right = 1.0
-anchor_bottom = 1.0
+anchor_bottom = 0.5
+offset_top = -33.0
+offset_bottom = 33.0
 grow_horizontal = 2
 grow_vertical = 2
-alignment = 1
 
 [node name="StartButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Start Game"
 
-[node name="GarageButton" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "Garage"
-
-[node name="OptionsButton" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "Options"
-
 [node name="QuitButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-text = "Quit Game"
+text = "Quit"
