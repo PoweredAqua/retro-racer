@@ -1,0 +1,23 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1746956889
+icon.svg::CompressedTexture2D::8483294707346807625::1746952234::1746956890::1::::<><><>0<>0<>5da52e66ea8624c557c3795662ca001b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+MainMenu.tscn::PackedScene::5022041256863043899::1746952234::0::1::::<><><>0<>0<><>::uid://bb60yrmj5f18r::::res://scripts/main_menu.gd
+README.txt::TextFile::-1::1746952234::0::1::::<><><>0<>0<><>::
+::res://data/::1746952234
+prototype2_cars.csv::Translation::3903354592882125070::1746952234::1746956890::1::::<><><>0<>0<>b9e722e192f3e1c5ea072c373b185eaf<>res://data/prototype2_cars.Year.translation<*>res://data/prototype2_cars.Price.translation::
+prototype2_cars.Price.translation::OptimizedTranslation::4894976702561280974::1746956890::0::1::::<><><>0<>0<><>::
+prototype2_cars.Year.translation::OptimizedTranslation::3960761316992058289::1746956890::0::1::::<><><>0<>0<><>::
+::res://devlogs/::1746952287
+devlog 11.05.2025.md::TextFile::-1::1746952206::0::1::::<><><>0<>0<><>::
+devlog_10.05.2025.md::TextFile::-1::1746952234::0::1::::<><><>0<>0<><>::
+::res://scenes/::1746952234
+Dealership.tscn::PackedScene::7949107086787298058::1746952234::0::1::::<><><>0<>0<><>::uid://clktqhcx08jwh::::res://scripts/dealership.gd
+Garage.tscn::PackedScene::4340604416454270506::1746952234::0::1::::<><><>0<>0<><>::uid://ddkxmvphw7757::::res://scripts/garage.gd
+::res://scripts/::1746952234
+dealership.gd::GDScript::5566744992342988431::1746952234::0::1::::<>Control<><>0<>0<><>::
+garage.gd::GDScript::7391891406405647900::1746952234::0::1::::<>Control<><>0<>0<><>::
+GarageData.gd::GDScript::3087801566261601758::1746952234::0::1::::<>Node<><>0<>0<><>::
+main_menu.gd::GDScript::2522166933463707651::1746952234::0::1::::<>Control<><>0<>0<><>::
+::res://ui/::1746952234
+CarEntry.tscn::PackedScene::3867376117243721605::1746952234::0::1::::<><><>0<>0<><>::
+DealershipEntry.tscn::PackedScene::7324362437833933972::1746952234::0::1::::<><><>0<>0<><>::

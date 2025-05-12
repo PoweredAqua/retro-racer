@@ -1,0 +1,59 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdsyjyl7igpap"]
+
+[ext_resource type="Script" uid="uid://bb60yrmj5f18r" path="res://scripts/main_menu.gd" id="1_i26rj"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i26rj")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -33.0
+offset_bottom = 33.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="StartButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Start Game"
+
+[node name="Garage" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Garage"
+
+[node name="Dealership" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Dealership
+"
+
+[node name="QuitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Quit"
+
+[node name="DebugSpawnButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -134.0
+offset_bottom = 31.0
+grow_horizontal = 0
+text = "Add Car (Debug)"
+
+[node name="DebugCreditsButton" type="Button" parent="."]
+layout_mode = 1
+offset_right = 120.0
+offset_bottom = 31.0
+text = "Add Credits"
+
+[connection signal="pressed" from="VBoxContainer/Garage" to="." method="_on_garage_pressed"]
+[connection signal="pressed" from="VBoxContainer/Dealership" to="." method="_on_dealership_pressed"]
