@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bjw7n7v262wd0"
+
+[deps]
+
+files=["res://data/events.name.translation", "res://data/events.reward.translation", "res://data/events.description.translation"]
+
+source_file="res://data/events.csv"
+dest_files=["res://data/events.name.translation", "res://data/events.reward.translation", "res://data/events.description.translation"]
+
+[params]
+
+compress=true
+delimiter=0
